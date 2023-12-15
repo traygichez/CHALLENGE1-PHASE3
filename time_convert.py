@@ -18,4 +18,4 @@ def convert_time(hour, minutes, period):
      time = f'{time}{minutes}' if minutes > 10 else f'{time}0{minutes}'
     
     # Return the converted time in 24-hour format.
-    return 
+    return time
