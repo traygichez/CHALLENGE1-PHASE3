@@ -15,7 +15,7 @@ def convert_time(hour, minutes, period):
         time = '12' if hour == 12 else f'{hour + 12}'
     
     # Add the minutes to the time, adding a leading '0' if the minutes are less than 10.
-    time = f'{time}{minutes}' if minutes > 10 else f'{time}0{minutes}'
+     time = f'{time}{minutes}' if minutes > 10 else f'{time}0{minutes}'
     
     # Return the converted time in 24-hour format.
-    return time
+    return 
